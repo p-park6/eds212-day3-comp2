@@ -1,0 +1,30 @@
+---
+title: "eds212-day3-comp2"
+---
+
+## Vectors in R
+```{r}
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+
+class(marmots)
+#shows it as character since it is the most flexible
+
+marmots
+#we see everything as quotes
+```
+## Create a numeric vector
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.9, 5)
+class(pika)
+#R reads this as numeric class
+```
+```{r}
+bear <- c(20L,3L,5L,18L)
+class(bear)
+#R reads this as integer value
+```
+
+
+
+
+
